@@ -90,7 +90,6 @@ const createEmployee = () => {
               );
           }
           employees.push(newEmployees);
-          console.log(employees)
           if (results.addEmployee === true) {
             createEmployee();
           } else {
